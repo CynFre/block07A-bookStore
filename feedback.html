@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./partials/feedback.css">
+</head>
+<body>
+    <form>
+        <p>Please rate our service out of 5</p>
+        <div class="star-rating">
+          <input name="star" id="star1" value="1" type="radio">
+          <input name="star" id="star2" value="2" type="radio">
+          <input name="star" id="star3" value="3" type="radio">
+          <input name="star" id="star4" value="4" type="radio">
+          <input name="star" id="star5" value="5" type="radio">
+          <label class="star-label fal fa-star" for="star5"></label>
+          <label class="star-label fal fa-star" for="star4"></label>
+          <label class="star-label fal fa-star selected" for="star3"></label>
+          <label class="star-label fal fa-star" for="star2"></label>
+          <label class="star-label fal fa-star" for="star1"></label>
+        </div>
+        <br/>
+        <p>Please leave a comment below</p>
+        <textarea name="comment"></textarea>
+        <br/>
+        <br/>
+        <button>Send Feedback</button>
+      </form>
+      <script src="./feedback.js"></script>
+</body>
+</html>
