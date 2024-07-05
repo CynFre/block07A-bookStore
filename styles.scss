@@ -1,8 +1,11 @@
 @import "./partials/mixin";
 @import "./partials/variables";
 
-
-body{
+body {
+    background-image: url($imagePath);
+    background-size: cover;
+}
+.content {
     
-    background-color: aqua;
+   // background-color: aqua;
 }

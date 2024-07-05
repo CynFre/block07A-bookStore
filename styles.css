@@ -1,3 +1,4 @@
 body {
-  background-color: aqua;
+  background-image: url("./images/library-background.jpg");
+  background-size: cover;
 }/*# sourceMappingURL=styles.css.map */
