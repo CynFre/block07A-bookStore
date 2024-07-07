@@ -1,4 +1,35 @@
 
-
+ @mixin flexCenter{
+    display: flex;
+    //width: 75%;
+    justify-content: left;
+    border: 3px solid white;
+    border-radius: 15px;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    
+}
+@mixin flexCenterSummaries{
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    align-items: center;
+    margin: 80px;
+    padding: 10px; 
+}
+@mixin flexCenterTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+@mixin flexCenterButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 
 

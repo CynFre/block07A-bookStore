@@ -1,4 +1,68 @@
+/*used different SCSS functionalities for styling all the elements*/
 body {
   background-image: url("./images/library-background.jpg");
   background-size: cover;
+  background-position: center;
+}
+
+#top, .intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* the main header text is in a different color and has a shadow effect*/
+h1 {
+  color: rgb(105, 146, 170);
+  text-shadow: 5px 5px 10px blue;
+  font-size: 5vw;
+}
+
+.book-title {
+  text-decoration: underline;
+  color: rgb(236, 186, 120);
+  padding: 15px;
+}
+
+h2, h3 {
+  color: rgb(236, 186, 120);
+  padding: 10px;
+}
+
+p {
+  color: white;
+  padding: 10px;
+}
+
+.red-sky, .housemaid, .swan-song, .winter-lost, .women {
+  display: flex;
+  justify-content: left;
+  border: 3px solid white;
+  border-radius: 15px;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+#red-sky-summary, #housemaid-summary, #swan-song-summary, #winter-lost-summary, #women-summary, #red-sky-author, #housemaid-author, #swan-song-author, #winter-lost-author, #women-author {
+  display: flex;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 15px;
+  align-items: center;
+  margin: 80px;
+  padding: 10px;
+}
+
+a {
+  color: hotpink;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }/*# sourceMappingURL=styles.css.map */

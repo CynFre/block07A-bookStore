@@ -7,61 +7,58 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <!--Incorporated HTML semantic tags-->
     <header id="top"><h1>Steven's Book House</h1></header>
     <main class="content">
-        <article><h2>Steven's Top Picks: </h2>
-            <p>The books listed below come from the <a href="https://www.nytimes.com/books/best-sellers/">New York Times Best Sellers List</a> and also are Steven's top picks. <br>Check below for summaries of each book:</p>
+        <article>
+            <div class="intro"><h2>Steven's Top Picks: </h2>
+            <p>The books listed below come from the <a href="https://www.nytimes.com/books/best-sellers/">New York Times Best Sellers List</a> <br>Check below for summaries of each book:</p>
+            </div>
+    <!--Each of the five books are in a section div-->
+    <!--Included a label and image for each of the books-->
         <section class="red-sky">
-            <h2>#1</h2><h2 class="book-title">Red Sky Mourning</h2>
-                <h3>by Jack Carr</h3>
             <img src="./images/RedSkyMourning.jpg" alt="Red Sky Mourning" width = "200px"/>
+            <h2>#1</h2>
+            <h2 class="book-title">Red Sky Mourning</h2> <br>
             <p></p>
+                <h3>by Jack Carr</h3>
             <a href="./summaries.html#red-sky-summary" target="_blank">Book Summary</a>
-            <p></p>
+            
             <a href="./summaries.html#red-sky-author" target="_blank">About the Author</a>
         </section>
         <section class="housemaid">
+            <img src="./images/The_Housemaid_is_Watching.jpg" alt="The_Housemaid_is_Watching" width="200px"/>
             <h2>#2</h2><h2 class="book-title">The Housemaid is Watching</h2>  
                 <h3>by Freida McFadden</h3></div>
-            <img src="./images/The_Housemaid_is_Watching.jpg" alt="The_Housemaid_is_Watching" width="200px"/>
-            <p></p>
             <a href="./summaries.html#housemaid-summary" target="_blank">Book Summary</a>
             <p></p>
             <a href="./summaries.html#housemaid-author" target="_blank">About the Author</a>
         </section>
         <section class="swan-song">
+            <img src="./images/SwanSong.jpg" alt="Swan Song" width="200px"/>
             <h2>#3</h2><h2 class="book-title">Swan Song</h2>
             <h3>by Elin Hilderbrand</h3>
-            <img src="./images/SwanSong.jpg" alt="Swan Song" width="200px"/>
-            <p></p>
             <a href="./summaries.html#swan-song-summary" target="_blank">Book Summary</a>
-            <p></p>
             <a href="./summaries.html#swan-song-author" target="_blank">About the Author</a>
         </section>
         <section class="winter-lost">
+            <img src="./images/WinterLost.jpg" alt="Winter Lost" width="200px"/>
             <h2>#4</h2><h2 class="book-title">Winter Lost</h2>
                 <h3>by Patricia Briggs</h3>
-            <img src="./images/WinterLost.jpg" alt="Winter Lost" width="200px"/>
-            <p></p>
             <a href="./summaries.html#winter-lost-summary" target="_blank">Book Summary</a>
-            <p></p>
             <a href="./summaries.html#winter-lost-author" target="_blank">About the Author</a>
         </section>
         <section class="women">
+            <img src="./images/theWomen.jpg" alt="The Women" width="200px"/>
             <h2>#5</h2><h2 class="book-title">The Women</h2>
                 <h3>by Kristen Hannah</h3> 
-            <p></p>
-            <img src="./images/theWomen.jpg" alt="The Women" width="200px"/>
-            <p></p>
             <a href="./summaries.html#women-summary" target="_blank">Book Summary</a>
-            <p></p>
             <a href="./summaries.html#women-author" target="_blank">About the Author</a>
-            <p></p>
         </section>
     </article>
     </main>
-    <footer>
+    <!--Included a footer, a button to jump to the top of the page and a feedback button which links to a feedback form-->
+    <footer class="footer">
         <button onclick="topFunction()" id="top" title="Go to top">Return to the top</button>
          <a href="./feedback.html"><button>Feedback</button></a>
     </footer>
